@@ -1,0 +1,29 @@
+[
+    {
+        "match": "web-gz.data.gz",
+        "headers": {
+            "Content-Type": "application/octet-stream",
+            "Content-Encoding": "gzip"
+        }
+    },
+    {
+        "match": "web-gz.framework.js.gz",
+        "headers": {
+            "Content-Type": "application/javascript",
+            "Content-Encoding": "gzip"
+        }
+    },
+    {
+        "match": "web-gz.loader.js",
+        "headers": {
+            "Content-Type": "application/javascript"
+        }
+    },
+    {
+        "match": "web-gz.wasm.gz",
+        "headers": {
+            "Content-Type": "application/wasm",
+            "Content-Encoding": "gzip"
+        }
+    }
+]
